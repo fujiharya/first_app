@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 #
 # Если вам часто приходится игнорировать временные файлы
@@ -6,7 +7,7 @@
 # добавить правило для глобального игнорирования:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
-# Игнорирование конфигурации bundler.
+# Игнорирование конфига bundler
 /.bundle
 
 # Игнорирование дефолтной базы данных SQLite.
@@ -26,3 +27,36 @@ doc/
 .DS_Store
 .idea
 .secret
+=======
+*.rbc
+capybara-*.html
+.rspec
+/log
+/tmp
+/db/*.sqlite3
+/public/system
+/coverage/
+/spec/tmp
+**.orig
+rerun.txt
+pickle-email-*.html
+
+# TODO Comment out these rules if you are OK with secrets being uploaded to the repo
+config/initializers/secret_token.rb
+config/secrets.yml
+
+## Environment normalisation:
+/.bundle
+/vendor/bundle
+
+# these should all be checked in to normalise the environment:
+# Gemfile.lock, .ruby-version, .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+# if using bower-rails ignore default bower_components path bower.json files
+/vendor/assets/bower_components
+*.bowerrc
+bower.json
+>>>>>>> 2dfe0b37f7745223738d719d5369ca88ca49b429
